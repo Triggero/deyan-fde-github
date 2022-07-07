@@ -22,3 +22,7 @@ Auth::routes();
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 
 Route::resource("/student", App\Http\Controllers\StudentController::class);
+
+Route::view('/404', 'errors.404');
+
+Route::view('/500', 'errors.500');

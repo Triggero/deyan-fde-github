@@ -34,11 +34,11 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/404') }}">404</a>
+                            <a class="nav-link" href="/404">404</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ url('/500') }}">500</a>
+                            <a class="nav-link" href="/500">500</a>
                         </li>
                     </ul>
 
